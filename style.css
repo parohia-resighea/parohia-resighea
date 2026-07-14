@@ -476,4 +476,32 @@ prevButton.addEventListener('click', () => {
     index = (index - 1 + slides.length) % slides.length;
     updateCarousel();
 });
+.navbar {
+    background-color: #8b6b3f;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.navbar ul li a:hover,
+.navbar ul li a.active {
+    text-decoration: underline;
+}
 
