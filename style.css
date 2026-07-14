@@ -456,4 +456,24 @@ footer {
 .next {
     right: 10px;
 }
+const track = document.querySelector('.carousel-track');
+const slides = Array.from(track.children);
+const nextButton = document.querySelector('.next');
+const prevButton = document.querySelector('.prev');
+
+let index = 0;
+
+function updateCarousel() {
+    track.style.transform = `translateX(-${index * 100}%)`;
+}
+
+nextButton.addEventListener('click', () => {
+    index = (index + 1) % slides.length;
+    updateCarousel();
+});
+
+prevButton.addEventListener('click', () => {
+    index = (index - 1 + slides.length) % slides.length;
+    updateCarousel();
+});
 
