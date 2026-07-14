@@ -356,3 +356,14 @@ footer {
 .culoare-incendiu {
     background: #9c0000;
 }
+.program-cards {
+    width: 90%;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.program-cards h2 {
+    font-size: 30px;
+    margin-bottom: 25px;
+    color: #1f3b5c;
+}
