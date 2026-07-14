@@ -491,3 +491,14 @@ footer {
     margin-bottom: 20px;
     color: #1f3b5c;
 }
+.calendar-ortodox {
+    width: 95%;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.calendar-ortodox h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #1f3b5c;
+}
