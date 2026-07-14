@@ -6,10 +6,7 @@ body {
     color: #333;
 }
 
-header {
-
-header {
-    background: url('header.jpg') center/cover no-repeat;
+header {    background: url('header.jpg') center/cover no-repeat;
     color: white;
     padding: 40px 20px;
     text-align: center;
@@ -18,6 +15,9 @@ header {
     position: sticky;
     top: 0;
     z-index: 1000;
+
+header {
+
 }
 
 }
