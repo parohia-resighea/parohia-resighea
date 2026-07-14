@@ -7,14 +7,18 @@ body {
 }
 
 header {
-    background: #1f3b5c;
+
+header {
+    background: url('header.jpg') center/cover no-repeat;
     color: white;
-    padding: 25px;
+    padding: 40px 20px;
     text-align: center;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.7);
     box-shadow: 0 2px 6px rgba(0,0,0,0.2);
     position: sticky;
-top: 0;
-     z-index: 1000
+    top: 0;
+    z-index: 1000;
+}
 
 }
 
