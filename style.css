@@ -212,4 +212,7 @@ footer {
     padding: 10px;
     border-top: 1px solid #d6d2c4;
 }
+.card {
+    background: linear-gradient(135deg, #f8f5ef 0%, #f3f1ea 100%);
+}
 
