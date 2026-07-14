@@ -231,4 +231,15 @@ footer {
     font-size: 18px;
     color: #333;
 }
+.comitet-cards {
+    width: 90%;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.comitet-cards h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #1f3b5c;
+}
 
