@@ -175,4 +175,17 @@ footer {
     box-shadow: 0 1px 3px rgba(0,0,0,0.1);
     font-size: 18px;
 }
+.lista-consiliu {
+    list-style: none;
+    padding: 0;
+}
+
+.lista-consiliu li {
+    background: white;
+    margin: 8px 0;
+    padding: 10px 15px;
+    border-radius: 6px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    font-size: 18px;
+}
 
