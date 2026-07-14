@@ -107,4 +107,24 @@ footer {
     box-shadow: 0 2px 6px rgba(0,0,0,0.2);
     
 }
+.istoric {
+    background: #f7f7f7;
+    padding: 25px;
+    margin: 30px auto;
+    width: 90%;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+}
+
+.istoric h2 {
+    text-align: center;
+    margin-bottom: 15px;
+    color: #1f3b5c;
+}
+
+.istoric p {
+    line-height: 1.6;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
 
