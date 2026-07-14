@@ -44,7 +44,14 @@ nav a {
     font-weight: 600;
     padding: 6px 10px;
     border-radius: 4px;
+    
+}nav {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
 }
+
 
 nav a:hover {
     background: #355c7d;
