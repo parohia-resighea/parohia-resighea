@@ -15,6 +15,13 @@ header {    background: url('header.jpg') center/cover no-repeat;
     position: sticky;
     top: 0;
     z-index: 1000;
+        .header-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
         header {
     filter: brightness(0.85);
 }
