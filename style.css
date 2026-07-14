@@ -35,6 +35,13 @@ header {
 
 nav {
     margin-top: 15px;
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
 }
 
 nav a {
