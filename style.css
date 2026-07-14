@@ -87,6 +87,11 @@ footer {
     display: flex;
     gap: 15px;
     flex-wrap: wrap;
+ .galerie img {
+    width: 100%;
+    max-width: 300px;
+}
+
 }
 
 .galerie img {
