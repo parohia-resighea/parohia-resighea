@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <title>Adaugă știre</title>
+</head>
+
+<body style="font-family:Arial; text-align:center; padding:40px;">
+
+<h2>Adaugă o știre în Viața Parohiei</h2>
+
+<form action="salveaza-stire.php" method="POST">
+    <label>Data:</label><br>
+    <input type="date" name="data" required><br><br>
+
+    <label>Titlu:</label><br>
+    <input type="text" name="titlu" required><br><br>
+
+    <label>Text:</label><br>
+    <textarea name="text" rows="6" cols="40" required></textarea><br><br>
+
+    <button type="submit">Salvează știrea</button>
+</form>
+
+</body>
+</html>
