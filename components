@@ -1,0 +1,25 @@
+header.html
+<header class="site-header">
+
+    <div class="header-content">
+
+        <div class="site-title">
+            <h1>Parohia Ortodoxă</h1>
+            <h2>Sfinții Arhangheli Mihail și Gavril</h2>
+            <p>Resighea • Protopopiatul Carei</p>
+        </div>
+
+        <nav class="main-menu">
+            <a href="index.html">Acasă</a>
+            <a href="despre.html">Despre</a>
+            <a href="program.html">Program</a>
+            <a href="activitati.html">Activități</a>
+            <a href="galerie.html">Galerie</a>
+            <a href="consiliu.html">Consiliu</a>
+            <a href="comitet.html">Comitet</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+
+    </div>
+
+</header>
