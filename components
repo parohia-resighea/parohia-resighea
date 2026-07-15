@@ -1,12 +1,21 @@
-header.html
 <header class="site-header">
 
     <div class="header-content">
 
         <div class="site-title">
-            <h1>Parohia Ortodoxă</h1>
+
+            <p class="episcopie">
+                Episcopia Ortodoxă Română a Maramureșului și Sătmarului
+            </p>
+
+            <h1>PAROHIA ORTODOXĂ RESIGHEA</h1>
+
             <h2>Sfinții Arhangheli Mihail și Gavril</h2>
-            <p>Resighea • Protopopiatul Carei</p>
+
+            <p class="localitate">
+                Protopopiatul Ortodox Român Carei
+            </p>
+
         </div>
 
         <nav class="main-menu">
